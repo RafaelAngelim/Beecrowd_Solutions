@@ -1,0 +1,7 @@
+a = int(input())
+m = int(input())
+b = (m-(a/2))*2
+
+result = f"{int(b)}"
+
+print(result)
