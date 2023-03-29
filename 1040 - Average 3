@@ -1,0 +1,24 @@
+grade = [float(i) for i in input().strip().split(' ')]
+
+avg = (2 * grade[0] + 3 * grade[1] + 4 * grade[2] + 1 * grade[3])/10
+
+print(f"Media: {avg:.1f}")
+
+if(avg >= 7.0):
+    print("Aluno aprovado.")
+elif(avg < 5.0):
+    print("Aluno reprovado.")
+else:
+    print("Aluno em exame.")
+    
+    exam = float(input().strip())
+    print(f"Nota do exame: {exam:.1f}")
+
+    avg = (avg + exam)/2
+
+    if(avg >= 5.0):
+        print("Aluno aprovado.")
+    else:
+        print("Aluno reprovado.")
+    
+    print(f"Media final: {avg:.1f}")
