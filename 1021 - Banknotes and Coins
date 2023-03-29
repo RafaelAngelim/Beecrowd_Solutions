@@ -1,0 +1,15 @@
+dollar, cents = [int(i) for i in input().strip().split('.')]
+dollar = dollar * 100 + cents
+
+bills = [10000, 5000, 2000, 1000, 500, 200]
+coins = [100, 50, 25, 10, 5, 1]
+
+print("NOTAS:")
+for bill in bills:
+    print(f"{dollar//bill} nota(s) de R$ {(bill/100):.2f}")
+    dollar %= bill
+
+print("MOEDAS:")
+for coin in coins:
+    print(f"{dollar//coin} moeda(s) de R$ {(coin/100):.2f}")
+    dollar %= coin
