@@ -1,0 +1,5 @@
+A= int(input())
+B= int(input())
+somsa = A+B
+result = f"SOMA = {somsa}"
+print(result)
