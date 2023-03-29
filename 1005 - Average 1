@@ -1,0 +1,11 @@
+A = float(input())
+B = float(input())
+
+gradeA = A*3.5
+gradeB = B*7.5
+
+media = (gradeA + gradeB) / 11
+
+result = f"MEDIA = {media:.5f}"
+
+print(result)
