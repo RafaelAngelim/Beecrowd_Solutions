@@ -1,0 +1,8 @@
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+
+porrinha = (a*b)-(c*d)
+result = f"DIFERENCA = {porrinha}"
+print(result)
