@@ -1,0 +1,4 @@
+raio = float(input())
+a = 3.14159 * raio * raio
+resultado = f"A={a:.4f}"
+print(resultado)
