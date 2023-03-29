@@ -1,0 +1,16 @@
+from math import sqrt
+a,b,c=list(map(float,input().split(" ")))
+delta=b**2-4*a*c
+if delta <0:
+    print("Impossivel calcular")
+else:
+    divis=2*a
+    div1=-abs(b)+sqrt(delta)
+    div2=-abs(b)-sqrt(delta)
+    if divis==0 or div1==0 or div2==0:
+        print("Impossivel calcular")
+    else:
+        raiz1=div1/divis
+        raiz2=div2/divis
+        result=f"R1 = {raiz1:.5f}\nR2 = {raiz2:.5f}"
+        print(result)
