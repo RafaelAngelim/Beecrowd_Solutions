@@ -1,0 +1,6 @@
+distance=int(input())
+tot_fuel=float(input())
+
+efic=distance/tot_fuel
+result=f"{efic:.3f} km/l"
+print(result)
