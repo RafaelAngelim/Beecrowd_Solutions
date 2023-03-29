@@ -1,0 +1,4 @@
+dist=int(input())
+minu=dist*2
+result=f"{minu} minutos"
+print(result)
