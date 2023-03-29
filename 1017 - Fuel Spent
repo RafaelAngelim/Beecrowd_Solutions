@@ -1,0 +1,7 @@
+time=int(input())
+speed=int(input())
+car_efic=12
+distance=speed*time
+liters=distance/car_efic
+result=f"{liters:.3f}"
+print(result)
