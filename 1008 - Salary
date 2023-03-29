@@ -1,0 +1,7 @@
+num = int(input())
+hour=int(input())
+ph=float(input())
+
+sal=ph*hour
+result = f"NUMBER = {num}\nSALARY = U$ {sal:.2f}"
+print(result)
